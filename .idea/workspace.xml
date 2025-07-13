@@ -4,99 +4,15 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_onboarding.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_passcode.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_edit_profile.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_transaction.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_budget.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_transaction.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_transactions.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_onboarding.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_onboarding_screen.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_transaction.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
-        <config>
-          <theme>@style/Theme.SpendMaster</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0200e06-54cd-43f9-ac02-8e60e898e576" name="Changes" comment="new" />
+    <list default="true" id="b0200e06-54cd-43f9-ac02-8e60e898e576" name="Changes" comment="new">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,10 +53,12 @@
     "PROJECT_TRUSTED_KEY": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/SLIIT/Y2 S2/MAD/SpendMaster",
     "recommended.upgrade.do.not.ask.for.project": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -231,6 +149,15 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -267,17 +194,6 @@
     <MESSAGE value="new" />
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/spendmasterr/MainActivity.kt</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
@@ -289,6 +205,16 @@
         <entry key="com.example.imilipocket.test">
           <value>
             <CheckInfo lastCheckTimestamp="1745337263638" />
+          </value>
+        </entry>
+        <entry key="com.example.spendmaster">
+          <value>
+            <CheckInfo lastCheckTimestamp="1752393924089" />
+          </value>
+        </entry>
+        <entry key="com.example.spendmaster.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1752393924089" />
           </value>
         </entry>
         <entry key="com.example.spendmasterr">
