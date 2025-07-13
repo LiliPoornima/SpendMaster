@@ -1,28 +1,35 @@
-📱 SpendMaster
+# 📱 SpendMaster
+
 SpendMaster is a modern Android application designed to help users track, analyze, and manage their personal expenses with ease. The app is structured for scalability and maintainability, following best practices in Android development.
 
-✨ Features
-Expense Tracking: Add, edit, and delete daily expenses.
-Analytics Dashboard: Visualize spending patterns with charts and summaries.
-Category Management: Organize expenses by customizable categories.
-Reports: Generate monthly or custom reports of your spending.
-Data Persistence: All data is stored locally using Room Database for offline access.
-User-Friendly Interface: Clean and intuitive UI using Material Design components.
-Secure & Private: All data is stored locally on your device.
+---
 
-🛠️ Tech Stack
-Languages:
-Kotlin (primary)
-Java (if needed for interoperability)
-Frameworks & Libraries:
-Android SDK (API 21+)
-AndroidX (Core, AppCompat, ConstraintLayout, etc.)
-Material Components for Android
-Room Database (planned)
-JUnit & Espresso (for testing)
-Architecture:
-MVVM (Model-View-ViewModel) pattern (recommended for future development)
-Modular structure: ui/, data/, utils/
+## ✨ Features
+
+- **Expense Tracking:** Add, edit, and delete daily expenses.
+- **Analytics Dashboard:** Visualize spending patterns with charts and summaries.
+- **Category Management:** Organize expenses by customizable categories.
+- **Reports:** Generate monthly or custom reports of your spending.
+- **Data Persistence:** All data is stored locally using Room Database for offline access.
+- **User-Friendly Interface:** Clean and intuitive UI using Material Design components.
+- **Secure & Private:** All data is stored locally on your device.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages:**  
+  - Kotlin (primary)  
+  - Java (if needed for interoperability)
+- **Frameworks & Libraries:**  
+  - Android SDK (API 21+)  
+  - AndroidX (Core, AppCompat, ConstraintLayout, etc.)  
+  - Material Components for Android  
+  - Room Database (planned)  
+  - JUnit & Espresso (for testing)
+- **Architecture:**  
+  - MVVM (Model-View-ViewModel) pattern (recommended for future development)
+  - Modular structure: `ui/`, `data/`, `utils/`
 
 ## Project Structure
 
