@@ -33,7 +33,7 @@ SpendMaster is a modern Android application designed to help users track, analyz
 
 ## Project Structure
 
-``text
+```text
 app/
 └── src/
     └── main/
